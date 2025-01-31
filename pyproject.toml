@@ -1,6 +1,9 @@
 [project]
-name = "hn-upvotes"
+name = "project"
 version = "0.1.0"
+packages = [
+    { include = "project", from = "src" },
+]
 description = "HN upvotes project MLX6-week1"
 authors = [
     {name = "Nico"}
@@ -13,7 +16,10 @@ dependencies = [
     "more-itertools (>=10.6.0,<11.0.0)",
     "requests (>=2.32.3,<3.0.0)",
     "wandb (>=0.19.5,<0.20.0)",
-    "nltk (>=3.9.1,<4.0.0)"
+    "nltk (>=3.9.1,<4.0.0)",
+    "huggingface (>=0.0.1,<0.0.2)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.2,<3.0.0)"
 ]
 
 

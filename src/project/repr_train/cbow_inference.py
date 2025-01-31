@@ -3,8 +3,8 @@ import torch
 import json
 import torch.nn.functional as F
 
-from cbow import CBOW, CBOWDataset
-from tokenizer import W2VTokenizer
+from project.repr_train.cbow import CBOW, CBOWDataset
+from project.repr_train.tokenizer import W2VTokenizer
 
 
 with open("text8_vocab.json", "r") as f:

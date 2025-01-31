@@ -4,7 +4,7 @@ from typing import List, Dict, Optional
 from nltk.stem import PorterStemmer 
 
 class W2VTokenizer():
-  def __init__(self, min_freq: int=3, use_stemming: bool = True) -> None:
+  def __init__(self, min_freq: int=3, use_stemming: bool = False) -> None:
     self.min_freq = min_freq
     self.use_stemming = use_stemming
     self.vocab = {} # word to indexing mapping

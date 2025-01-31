@@ -5,7 +5,9 @@ import random
 from torch.utils.data import Dataset
 from typing import List, Tuple
 
-from tokenizer import W2VTokenizer
+from project.repr_train.tokenizer import W2VTokenizer
+
+
 class CBOW(nn.Module):
     def __init__(self, vocab_size: int, embedding_dim: int):
         super().__init__()
