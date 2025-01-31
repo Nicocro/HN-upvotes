@@ -1,0 +1,118 @@
+text8
+weights.pt
+wandb/
+__pycache__/
+.venv/
+text8.txt
+cbow_dummy_weights.pt
+hn_title_corpus.txt
+hn_title_corpus_lines.txt
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# ML specific
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.onnx
+*.mlmodel
+*.pt
+*.bin
+checkpoint/
+checkpoints/
+runs/
+logs/
+wandb/
+mlruns/
+.pytest_cache/
+lightning_logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+jupyter_execute/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+data/
+datasets/
+*.csv
+*.json
+*.jsonl
+*.txt
+*.tsv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# Model outputs and experiments
+output/
+outputs/
+results/
+experiments/
+saved_models/
+pretrained/
+*.ckpt
+events.out.tfevents.*
+
+# Temp files
+tmp/
+temp/
+.temp/
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+tensorboard/
+tb_logs/
+
+# Documentation
+docs/_build/
+site/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
