@@ -60,5 +60,12 @@ for epoch in range(num_epochs):
     # Log the average loss to wandb
     wandb.log({"epoch": epoch+1, "loss": avg_loss})
 
+# Save the model weights
+model_path = "hn_regression_model.pth"
+torch.save(model.state_dict(), model_path)
+
+# Log the model weights to wandb
+wandb.save(model_path)
+
 # Finish the wandb run
 wandb.finish()
